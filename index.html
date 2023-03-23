@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Llamada automática</title>
+</head>
+<body onload="makeCall()">
+  <h1>Realizando una llamada...</h1>
+
+  <script>
+    function makeCall() {
+      var phoneNumber = '+573185568036'; // número de teléfono a llamar
+      var telLink = 'tel:' + phoneNumber;
+
+      window.location.href = telLink;
+    }
+  </script>
+</body>
+</html>
